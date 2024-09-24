@@ -18,7 +18,7 @@ namespace CSharp11Features
 		   //new RequiredMembers().ShowPerson();
 		   // new NameofScope().ShowNameof();
 
-			// new ListPatterns().MatchList(new[] { 1, 2, 4 });
+		new ListPatterns().MatchList(new[] { 1, 2, 3 });
 
 			//new GenericAttributes().ShowAttribute();
 

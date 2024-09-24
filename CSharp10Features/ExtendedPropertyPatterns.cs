@@ -23,7 +23,7 @@ public class ExtendedPropertyPatterns
 
     public void MatchPerson(Person person)
     {
-		//if (person is { Address: { City: "New York" } })
+		//if (person is { Address: { City: "New York" } { Street : " 7Th Wolf St."} })
 			if (person is { Address.City: "New York"  })
         {
             Console.WriteLine("The person lives in New York.");

@@ -5,7 +5,7 @@ public class ListPatterns
 {
     public void MatchList(int[] numbers)
     {
-        if (numbers is [1, 2, 3])
+        if (numbers is [1, 2, 3,..])
         {
             Console.WriteLine("Matched [1, 2, 3]");
         }

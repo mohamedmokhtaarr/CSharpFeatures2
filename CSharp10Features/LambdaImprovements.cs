@@ -10,10 +10,27 @@ public class LambdaImprovements
 {
     public void DemonstrateLambdas()
     {
-        Func<int, int, int> add = (a, b) => a + b;
+        Func<int, int, int> add = (a, b) => a + b;  
+
         Console.WriteLine($"Lambda adding 2 + 3 = {add(2, 3)}");
 
-        //Func<string> helloWorld = () => "Hello World";
-        //Console.WriteLine(helloWorld());
-    }
+
+		//static int Sum(int x, int y)
+		//{
+		//	return x + y;
+		//}
+
+		//static void Test()
+		//{
+		//	Func<int, int, int> add = Sum;
+
+		//	int result = add(10, 10);
+
+		//	Console.WriteLine(result);
+		//}
+
+
+		//Func<string> helloWorld = () => "Hello World";
+		//Console.WriteLine(helloWorld());
+	}
 }

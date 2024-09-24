@@ -7,7 +7,7 @@ namespace CSharp9Features
         public void Demo()
         {
             bool condition = false;
-            Person person = condition ? new Person("John", "Doe", 1) : new Person("mohamed", "Doe", 1);
+            Person person = condition ? new Person("John", "Doe", 1) : new Person("mohamed", "Mokhtar", 1);
             Console.WriteLine(person.FirstName);
         }
     }

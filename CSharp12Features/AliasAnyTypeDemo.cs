@@ -11,7 +11,7 @@ namespace CSharp12Features
         {
             Mokh mokh = "Mokhtar";
             IntArray numbers = new[] { 1, 2, 3, 4, 5 };
-            Console.WriteLine("Alias Any Type: " + string.Join(", ", numbers));
+            Console.WriteLine($"Name is {mokh} & Alias Any Type: " + string.Join(", ", numbers));
         }
     }
 }

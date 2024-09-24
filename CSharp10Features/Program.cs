@@ -1,6 +1,4 @@
-﻿
-
-using CSharp10Features.FileScopedNamespace;
+﻿using CSharp10Features.FileScopedNamespace;
 
 namespace CSharp10Features
 {
@@ -10,9 +8,12 @@ namespace CSharp10Features
         {
 			
             // Global usings are declared in GlobalUsings.cs
-			var names = new[] { "Salah", "Mabrouk", "Ali", "Mokhtar" };
-			var serialized = JsonSerializer.Serialize(names);
-			Console.WriteLine(serialized);
+
+            var serialized = new GlobalUsings();
+            serialized.Serialize();
+			//var names = new[] { "Salah", "Mabrouk", "Ali", "Mokhtar" };
+			////var serialized = JsonSerializer.Serialize(names);
+			//Console.WriteLine(serialized);
 			
             
             // File-scoped namespace
