@@ -12,7 +12,8 @@ namespace CSharp12Features
             int[] array2 = [4, 5, 6];
             int[] array3 = [7, 8, 9];
 			int[] combinedArray = [.. array1, .. array2,..array3];
-            Console.WriteLine("Collection Expressions: " + string.Join(", ", combinedArray));
+            Console.WriteLine(combinedArray);
+           Console.WriteLine("Collection Expressions: " + string.Join(", ", combinedArray));
         }
     }
 }

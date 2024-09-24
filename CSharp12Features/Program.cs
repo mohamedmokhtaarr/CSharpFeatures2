@@ -6,11 +6,11 @@ namespace CSharp12Features
     {
         static void Main(string[] args)
         {
-			//var collectionExpressionsDemo = new CollectionExpressionsDemo();
-			//collectionExpressionsDemo.RunDemo();
+			var collectionExpressionsDemo = new CollectionExpressionsDemo();
+			collectionExpressionsDemo.RunDemo();
 
-			var refReadonlyParametersDemo = new RefReadonlyParametersDemo();
-			refReadonlyParametersDemo.RunDemo();
+			//var refReadonlyParametersDemo = new RefReadonlyParametersDemo();
+			//refReadonlyParametersDemo.RunDemo();
 
 			//var defaultLambdaParametersDemo = new DefaultLambdaParametersDemo();
 			//defaultLambdaParametersDemo.RunDemo();
